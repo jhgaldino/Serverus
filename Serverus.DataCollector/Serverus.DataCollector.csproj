@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="src\DataCollector\Queue\" />
-    <Folder Include="src\DataCollector\Services\" />
+    <Folder Include="src\DataCollector\NovaPasta\" />
   </ItemGroup>
 
 </Project>
